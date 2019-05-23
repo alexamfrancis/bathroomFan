@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0883CD82295AA37007BEBD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0883CD72295AA37007BEBD3 /* AppDelegate.swift */; };
+		D0883CDA2295AA37007BEBD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0883CD92295AA37007BEBD3 /* ViewController.swift */; };
+		D0883CDF2295AA39007BEBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0883CDE2295AA39007BEBD3 /* Assets.xcassets */; };
+		D0883CE22295AA39007BEBD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0883CE02295AA39007BEBD3 /* LaunchScreen.storyboard */; };
+		D0883CEA2295B5A7007BEBD3 /* PlayingSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0883CE92295B5A7007BEBD3 /* PlayingSoundViewController.swift */; };
+		D0883CEC2295DAEA007BEBD3 /* fan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CEB2295DAEA007BEBD3 /* fan.mp3 */; };
+		D0883CEE22961ADE007BEBD3 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CED22961ADE007BEBD3 /* water.mp3 */; };
+		D0883CF022961C11007BEBD3 /* poop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CEF22961C11007BEBD3 /* poop.mp3 */; };
+		D0883CF32296226B007BEBD3 /* harryPotter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CF12296226A007BEBD3 /* harryPotter.mp3 */; };
+		D0883CF42296226B007BEBD3 /* sex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CF22296226B007BEBD3 /* sex.mp3 */; };
+		D0883CF62296229F007BEBD3 /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CF52296229F007BEBD3 /* fart.mp3 */; };
+		D0883CF922962D42007BEBD3 /* taylorSwift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0883CF822962D42007BEBD3 /* taylorSwift.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0883CD42295AA37007BEBD3 /* Bathroom Fan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bathroom Fan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0883CD72295AA37007BEBD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0883CD92295AA37007BEBD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0883CDE2295AA39007BEBD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0883CE12295AA39007BEBD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0883CE32295AA39007BEBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0883CE92295B5A7007BEBD3 /* PlayingSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingSoundViewController.swift; sourceTree = "<group>"; };
+		D0883CEB2295DAEA007BEBD3 /* fan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan.mp3; sourceTree = "<group>"; };
+		D0883CED22961ADE007BEBD3 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		D0883CEF22961C11007BEBD3 /* poop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poop.mp3; sourceTree = "<group>"; };
+		D0883CF12296226A007BEBD3 /* harryPotter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harryPotter.mp3; sourceTree = "<group>"; };
+		D0883CF22296226B007BEBD3 /* sex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sex.mp3; sourceTree = "<group>"; };
+		D0883CF52296229F007BEBD3 /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+		D0883CF822962D42007BEBD3 /* taylorSwift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taylorSwift.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0883CD12295AA37007BEBD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0883CCB2295AA37007BEBD3 = {
+			isa = PBXGroup;
+			children = (
+				D0883CD62295AA37007BEBD3 /* Bathroom Fan */,
+				D0883CD52295AA37007BEBD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0883CD52295AA37007BEBD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0883CD42295AA37007BEBD3 /* Bathroom Fan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0883CD62295AA37007BEBD3 /* Bathroom Fan */ = {
+			isa = PBXGroup;
+			children = (
+				D0883CD72295AA37007BEBD3 /* AppDelegate.swift */,
+				D0883CD92295AA37007BEBD3 /* ViewController.swift */,
+				D0883CE92295B5A7007BEBD3 /* PlayingSoundViewController.swift */,
+				D0883CDE2295AA39007BEBD3 /* Assets.xcassets */,
+				D0883CFA22962D7C007BEBD3 /* audio */,
+				D0883CE02295AA39007BEBD3 /* LaunchScreen.storyboard */,
+				D0883CE32295AA39007BEBD3 /* Info.plist */,
+			);
+			path = "Bathroom Fan";
+			sourceTree = "<group>";
+		};
+		D0883CFA22962D7C007BEBD3 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				D0883CEB2295DAEA007BEBD3 /* fan.mp3 */,
+				D0883CEF22961C11007BEBD3 /* poop.mp3 */,
+				D0883CF52296229F007BEBD3 /* fart.mp3 */,
+				D0883CF12296226A007BEBD3 /* harryPotter.mp3 */,
+				D0883CF822962D42007BEBD3 /* taylorSwift.mp3 */,
+				D0883CF22296226B007BEBD3 /* sex.mp3 */,
+				D0883CED22961ADE007BEBD3 /* water.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0883CD32295AA37007BEBD3 /* Bathroom Fan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0883CE62295AA39007BEBD3 /* Build configuration list for PBXNativeTarget "Bathroom Fan" */;
+			buildPhases = (
+				D0883CD02295AA37007BEBD3 /* Sources */,
+				D0883CD12295AA37007BEBD3 /* Frameworks */,
+				D0883CD22295AA37007BEBD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bathroom Fan";
+			productName = "Bathroom Fan";
+			productReference = D0883CD42295AA37007BEBD3 /* Bathroom Fan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0883CCC2295AA37007BEBD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexa Francis";
+				TargetAttributes = {
+					D0883CD32295AA37007BEBD3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D0883CCF2295AA37007BEBD3 /* Build configuration list for PBXProject "Bathroom Fan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0883CCB2295AA37007BEBD3;
+			productRefGroup = D0883CD52295AA37007BEBD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0883CD32295AA37007BEBD3 /* Bathroom Fan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0883CD22295AA37007BEBD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0883CF42296226B007BEBD3 /* sex.mp3 in Resources */,
+				D0883CEC2295DAEA007BEBD3 /* fan.mp3 in Resources */,
+				D0883CF022961C11007BEBD3 /* poop.mp3 in Resources */,
+				D0883CF62296229F007BEBD3 /* fart.mp3 in Resources */,
+				D0883CE22295AA39007BEBD3 /* LaunchScreen.storyboard in Resources */,
+				D0883CEE22961ADE007BEBD3 /* water.mp3 in Resources */,
+				D0883CDF2295AA39007BEBD3 /* Assets.xcassets in Resources */,
+				D0883CF32296226B007BEBD3 /* harryPotter.mp3 in Resources */,
+				D0883CF922962D42007BEBD3 /* taylorSwift.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0883CD02295AA37007BEBD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0883CDA2295AA37007BEBD3 /* ViewController.swift in Sources */,
+				D0883CD82295AA37007BEBD3 /* AppDelegate.swift in Sources */,
+				D0883CEA2295B5A7007BEBD3 /* PlayingSoundViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0883CE02295AA39007BEBD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0883CE12295AA39007BEBD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0883CE42295AA39007BEBD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0883CE52295AA39007BEBD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0883CE72295AA39007BEBD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8348Q67VC5;
+				INFOPLIST_FILE = "Bathroom Fan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marc.Bathroom-Fan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0883CE82295AA39007BEBD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8348Q67VC5;
+				INFOPLIST_FILE = "Bathroom Fan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marc.Bathroom-Fan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0883CCF2295AA37007BEBD3 /* Build configuration list for PBXProject "Bathroom Fan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0883CE42295AA39007BEBD3 /* Debug */,
+				D0883CE52295AA39007BEBD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0883CE62295AA39007BEBD3 /* Build configuration list for PBXNativeTarget "Bathroom Fan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0883CE72295AA39007BEBD3 /* Debug */,
+				D0883CE82295AA39007BEBD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0883CCC2295AA37007BEBD3 /* Project object */;
+}
